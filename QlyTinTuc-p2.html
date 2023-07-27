@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quan Ly Tin Tuc</title>
+    <link rel="icon" href ="anh/Huy_Hiệu_Đoàn.ico"/>
+    <link rel="stylesheet" href="QLyTinTuc.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+<body>
+    <div class="desktop-2">
+        <div class="rectangle-1"></div>
+            
+              <div class="user-admin"><i class="bi bi-person-circle"></i> user admin</div>
+            
+              <div class="rectangle-2">
+                <div class="user1"><i class="bi bi-person-circle"></i></div>
+                <div class="user-admin2">User Admin<br /></div>
+                <a class="ng-xu-t" href = "DangNhap.html"><i class="bi bi-box-arrow-right"></i> Đăng xuất<br /></a>
+            
+                <div class="h-th-ng-qu-n-l">Hệ Thống Quản Lý<br /></div>
+                
+                <a class="qu-n-l-ca-b" href = "QlyCanBo.html">Quản lý cán bộ <br /></a>
+                <a class="qu-n-l-tin-t-c" href = "QlyTinTuc.html">Quản lý tin tức<br /></a>
+                <a class="qu-n-l-li-n-h" href = "QLyLienHe.html">Quản lý liên hệ<br /></a>
+        
+                <a class="th-ng-k" href = "ThongKe.html">Thống kê<br /></a>
+              
+                <a class="qu-n-l-o-n-vi-n" href = "Trangchu_QLyDoanVien.html">Quản lý nhân viên<br /></a>
+              </div>
+      
+        
+          <input class="frame-33" type = "text" placeholder = "-- Mã số --">
+      
+          <input  class="frame-34" type = "date" >
+      
+      
+        
+          <div><button> <a class="frame-35" href = "#">Tìm kiếm</a> </button></div>
+
+          <!--
+            <div >
+              <button  ><a class="rectangle-9" href = "#">Thêm </a> </button>
+          </div>
+          -->
+          
+      
+        <div>
+            <table class = " frame-19">
+              <tr style = "background-color:#b0cffe; height:45px;">
+                <th style = width:10%;>Mã Số</th>
+                <th style = width:10%;>Ngày Đăng</th>
+                <th style = width:10%;>Phân Loại</th>
+                <th style = width:60%;>Trích Yếu</th>
+                <th>Hành Động</th>
+              </tr>
+              <tr>
+                <td>Số: 640 -
+                 CV/TWDTN-TNTH</td>
+                <td>06/04/2023</td>
+                <td>Công tác giáo dục</td>
+                <td style = "color:blue;">Về việc báo cáo các khó khăn, bất cập khi triển khai thực hiện quy định số 80 của Bộ chính trị</td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td> PDK</td>
+                <td>29/03/2023</td>
+                <td>Tuổi trẻ sáng tạo</td>
+                <td style = "color:blue;">Kế hoạch tổ chức và Thể lệ cuộc thi "Dự án khởi nghiệp thanh niên nông thôn" năm 2023</td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>Số 34 - KH/TWDTN-TNTH</td>
+                <td>07/03/2023</td>
+                <td>Xung kích bảo vệ tổ quốc</td>
+                <td style = "color:blue;">Kế hoạch tọa đàm "xây dựng, phát triển đội ngũ cán bộ trẻ đáp ứng yêu cầu giai đoạn mới"</td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>số 55- TB/TWDTN-BKT</td>
+                <td>04/03/2023</td>
+                <td>Học Tập</td>
+                <td style = "color:blue;">Thông báo kiểm tra chuyên đề của ủy ban kiếrm tra Trung ương Đoàn năm 2023</td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td>355- 
+                  CV/TWDTN-BKT</td>
+                <td>03/03/2023</td>
+                <td>khởi nghiệp, lập nghiệp</td>
+                <td style = "color:blue;">Công văn v/v lưu ý thực hiện Quy chế dana chủ cơ sở và phòng chống tham nhũng, tiêu cực năm 2023</td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "color:blue;"></td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "color:blue;"></td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "color:blue;"></td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "color:blue;"></td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td style = "color:blue;"></td>
+                <td>
+                  <button>
+                    <a class="frame-26" href = "#">Sửa</a>
+                  </button>
+                  <button>
+                    <a class="frame-27" href = "#">Xóa</a>
+                  </button>
+                </td>
+              </tr>
+            </table>
+
+            <div  class="btn-toolbar"  >
+                <button type="button" class="btn btn-primary"><a style = "text-decoration: none; font-size:17px;" href = "QlyTinTuc.html">1</a></button>
+                <button style="font-size:20px; background-color:#b0cffe;" type="button" class="btn btn-primary"><a style = "text-decoration: none;" href = "QlyTinTuc-p2.html">2</a></button>
+                <button type="button" class="btn btn-primary"><a style = "text-decoration: none; font-size:17px;" href = "QLyTinTuc-p3.html">3</a></button>
+                <button type="button" class="btn btn-primary"><a style = "text-decoration: none; font-size:17px;" href = "QLyTinTuc-p4.html">4</a></button>
+                <button type="button" class="btn btn-primary"><a style = "text-decoration: none; font-size:17px;" href = "QLyTinTuc-p5.html">5</a></button>
+              </div>
+          <!--
+          <div class="frame-40">
+            <div class="frame-36">
+              <div class="m-s2">Mã số</div>
+            </div>
+      
+            <div class="frame-37">
+              <div class="ng-y-ng">Ngày đăng</div>
+            </div>
+      
+            <div class="frame-38">
+              <div class="tr-ch-y-u">Trích yếu</div>
+            </div>
+      
+            <div class="frame-39">
+              <div class="h-nh-ng">Hành động</div>
+            </div>
+          </div>
+      
+          <div class="frame-41">
+            <div class="frame-362">
+              <div class="s-121-tb-twdtn-tntn">Số: 121- <br />TB/TWDTN-TNTN</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_30-06-2023">30/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="th-ng-b-o-v-d-n-tham-gia-v-ng-b-n-k-t-cu-c-thi-d-n-kh-i-nghi-p-thanh-thanh-ni-n-n-ng-th-n-n-m-2023"
+              >
+                Thông báo về dự án tham gia vòng bán kết cuộc thi Dự án khởi nghiệp
+                thanh <br />thanh niên nông thôn năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-54">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-42">
+            <div class="frame-363">
+              <div class="s-116-tb-twdtn-btc">Số: 116 - <br />TB/TWDTN-BTC</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_21-06-2023">21/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="th-ng-b-o-tri-u-t-p-th-sinh-d-thi-v-ng-2-k-thi-tuy-n-sinh-c-ng-ch-cc-c-quan-trung-ng-o-n-n-m-2023"
+              >
+                Thông báo triệu tập thí sinh dự thi vòng 2 kỳ thi tuyển sinh công
+                chứcc cơ <br />quan Trung Ương Đoàn năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-55">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-43">
+            <div class="frame-363">
+              <div class="s-115-tb-twdtn-btc">Số: 115 - <br />TB/TWDTN-BTC</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_19-06-2023">19/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="th-ng-b-o-k-t-qu-thi-tr-c-nghi-m-v-ng-1-tr-n-m-y-t-nh-k-tuy-n-c-ng-ch-c-c-quan-tw-o-n-n-m-2023"
+              >
+                Thống báo kết quả thi trắc nghiệm vòng 1 trên máy tính kỳ tuyển công
+                chức <br />cơ quan TW Đoàn năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-59">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-45">
+            <div class="frame-363">
+              <div class="s-07-th-tri-twdtn-btc">Số: 07 - <br />ThTri/TWDTN/BTC</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_06-06-2023">06/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="th-ng-tin-tri-u-t-p-l-n-b-i-d-ng-nghi-p-v-c-ng-t-c-tuy-n-gi-o-n-m-2023"
+              >
+                Thông tin triệu tập lớn bồi dưỡng nghiệp vụ công tác tuyên giáo năm
+                2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-56">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-44">
+            <div class="frame-363">
+              <div class="s-96-tb-twdtn-bqt">Số: 96 - <br />TB/TWDTN-BQT</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_01-07-2023">01/07/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="th-ng-b-o-s-2-cu-c-thi-olympic-ti-ng-anh-d-nh-cho-c-n-b-tr-l-n-th-v-n-m-2023"
+              >
+                Thông báo số 2 cuộc thi Olympic tiếng anh dành cho cán bộ trẻ lần thứ
+                V <br />năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-60">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-46">
+            <div class="frame-363">
+              <div class="s-1052-cv-twdtn-btg">Số: 1052 - <br />CV/TWDTN/BTG</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_10-06-2023">10/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="c-ng-v-n-tuy-n-truy-n-ch-th-16-c-a-th-t-ng-ch-nh-ph-v-ph-ng-ng-a-t-ch-c-nh-b-c-v-nh-b-c"
+              >
+                Công văn tuyên truyền chỉ thị 16 của thủ tướng chính phủ về phòng ngừa
+                tổ <br />chức đánh bạc và đánh bạc
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-59">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-47">
+            <div class="frame-363">
+              <div class="s-69-bc-twdtn-btg">Số: 69 - <br />BC/TWDTN-BTG</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_08-06-2023">08/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div class="b-o-c-o-t-nh-h-nh-d-lu-n-thanh-ni-n-th-ng-5-n-m-2023">
+                Báo cáo tình hình dư luận thanh niên tháng 5 năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-58">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-48">
+            <div class="frame-363">
+              <div class="s-81-kh-twdtn-cttn">Số: 81 - <br />KH/TWDTN-CTTN</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_31-05-2023">31/05/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="k-ho-ch-tuy-n-truy-n-chi-n-d-ch-thanh-ni-n-t-nh-nguy-n-h-n-m-2023"
+              >
+                Kế hoạch tuyên truyền Chiến dịch Thanh niên tình nguyện hè năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-57">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-49">
+            <div class="frame-363">
+              <div class="s-93-tb-twdtn-btc">Số: 93 - <br />TB/TWDTN-BTC</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_28-05-2023">28/05/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="k-ho-ch-tri-n-khai-ch-ng-tr-nh-h-tr-thanh-ni-n-kh-i-nghi-p-giai-o-n-2022-2030"
+              >
+                Kế hoạch Triển khai Chương trình “Hỗ trợ Thanh niên khởi nghiệp giai
+                đoạn <br />2022-2030”
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-59">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="frame-50">
+            <div class="frame-363">
+              <div class="s-92-tb-twdtnbtc-btc">Số: 92 - <br />TB/TWDTNBTC-BTC</div>
+            </div>
+      
+            <div class="frame-372">
+              <div class="_29-06-2023">29/06/2023</div>
+            </div>
+      
+            <div class="frame-382">
+              <div
+                class="c-ng-v-n-th-ng-tin-tuy-n-truy-n-v-c-ng-t-c-x-y-d-n-ng-x-y-d-ng-h-th-ng-ch-nh-tr-n-m-2023"
+              >
+                Công văn thông tin, tuyên truyền về công tác xây dựn Đảng, xây dựng hệ
+                <br />thống chính trị năm 2023
+              </div>
+            </div>
+      
+            <div class="frame-392">
+              <div class="frame-58">
+                <div class="frame-52">
+                  <div class="s-a">Sửa</div>
+                </div>
+      
+                <div class="frame-53">
+                  <div class="x-a">Xóa</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        -->
+        </div>
+      
+      </div>
+      
+</body>
+</html>

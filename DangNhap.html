@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dang Nhap</title>
+  <link rel="icon" href ="anh/Huy_Hiệu_Đoàn.ico"/>
+  <link rel="stylesheet" href="DangNhap.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <body>
+  <div class="desktop-1">
+    <img
+      class="screenshot-2023-07-03-101423-1"
+      src="anh/Screenshot 2023-07-03 101423 1.jpg"
+    />
+  
+    <div class="rectangle-3">
+
+      <form action ="Trangchu_QLyDoanVien.html" >
+       
+  
+    <div class="frame-1">
+      <div class="ng-nh-p">ĐĂNG NHẬP</div>
+    </div>
+    <div class="frame-2">
+      <div class="t-n-ng-nh-p">Tên đăng nhập</div>
+  
+      <div><input  class="frame-3" type = "text" name = "name" required>  </div>
+      
+    </div>
+  
+    <div class="frame-32">
+      <div class="m-t-kh-u">Mật khẩu</div>
+  
+      <div>
+        <input id ="password" class="frame-33" type ="password"  required>
+      </div>
+
+    </div>
+    <button class="frame-5"> Đăng nhập</button>
+      </form>
+      
+      <button class = "ah" onclick="myFunction()">
+        <i class="bi bi-eye-fill" id="eyeIcon"></i>
+      </button>
+
+    </div>
+    <a class="qu-n-m-t-kh-u" href = "https://accounts.google.com/v3/signin/rejected?TL=AJvNCbbPQ5qRV3qRelWNI8Y3vQsEnVft7U_3T8B0vvpfwU4JPv1F3y1AXZLJZhgH&checkConnection=youtube%3A184%3A0&checkedDomains=youtube&continue=https%3A%2F%2Fmail.google.com&dsh=S-1190210033%3A1689089634196836&flowEntry=ServiceLogin&flowName=GlifWebSignIn&hl=vi&ifkv=AeDOFXhxde4s3qQeohrPcDCS3qzmQNmrCzeta0mn1El8XlGztm1epxIkKmdhhT8iUcTne8AyYC6I&pstMsg=1&rrk=2">Quên mật khẩu</a>
+    
+    </div>
+    
+    <script>
+  
+      function myFunction() {
+        var x = document.getElementById("password");
+        if (x.type === "password") {
+          x.type = "text";
+        } else {
+          x.type = "password";
+        }
+      }
+  
+      </script> 
+ 
+
+</body>
+</html>
